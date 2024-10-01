@@ -10,7 +10,7 @@ function AboutMe() {
   return (
     <div className="about-me">
       <h1>About Me</h1>
-      <img src={photo} alt="photo" style={{ width: '200px', height: '200px' }} />
+      <img src={photo} style={{ width: '200px', height: '200px' }} />
       <p>Hello, I'm Evan Ratnani, a passionate web developer with experience in building dynamic websites and applications.</p>
       <a href={resume} target="_blank" rel="noopener noreferrer">Download my Resume</a>
     </div>
